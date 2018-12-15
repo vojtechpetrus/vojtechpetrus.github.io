@@ -5,6 +5,9 @@ collections:
   benefits:
     title: Benefits
     output: true
+  customers:
+    title: Customers
+    output: true
   posts:
     title: Posts
     output: true
