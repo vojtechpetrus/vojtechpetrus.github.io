@@ -1,6 +1,7 @@
 ---
 title: Mushrooms
 date: 2018-12-15 18:16:00 Z
+published: false
 ---
 
 We grow oyster and shiitake mushrooms in our purpose-built indoor farm in Manchester, and deliver them to local restaurants within one hour of harvest.\
