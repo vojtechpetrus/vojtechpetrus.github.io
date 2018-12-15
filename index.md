@@ -3,7 +3,9 @@ title: Bringing Food and People Closer Together
 layout: default
 ---
 
-# {{ page.title }}
+{{ page.title }}
+
+{% include hero_image.html %}
 
 Some more content and even more
 
