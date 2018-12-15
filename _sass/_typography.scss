@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+    font-family: "WickedGrit";
+    src: url('../typography/WickedGrit.eot') format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "WickedGrit";
+    src:  url('../typography/WickedGrit.woff') format("woff"), url('../typography/WickedGrit.ttf')  format("truetype"), url('WickedGrit.svg#WickedGrit') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$ff-ss: 'Lato', sans-serif;
+$ff-hf: 'WickedGrit';

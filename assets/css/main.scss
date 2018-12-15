@@ -1,0 +1,77 @@
+---
+
+---
+
+@import 'colours';
+@import 'typography';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: $ff-hf;
+}
+
+  .mushroomtext {
+    line-height: 0.8;
+    text-shadow: -4px 1px #000000;
+    letter-spacing: -5px;
+    font-size: 11vmin;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+  }
+
+.front-text {
+  align-self: center;
+  justify-self: center;
+}
+
+.intro-area {
+  background-image: url('/assets/images/background_2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-auto-rows: 1fr 5fr 1fr;
+
+  .intro-text {
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+.mushrooms {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 350px))
+}
+
+
+body {
+  font-family:  $ff-ss;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 30% 1fr 1fr 1fr 1fr 1fr 30%;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+
+}
+
+li {
+  display: inline-block;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  
+}
