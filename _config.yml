@@ -13,7 +13,7 @@ collections:
     output: true
   sections:
     title: Sections
-    output: true
+    output: false
   team:
     title: Team
     output: true
