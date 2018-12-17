@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href= {{ "/assets/css/main.css" | relative_url }}
+        <link rel="stylesheet" href= {{ "/assets/css/main.css" | relative_url }}>
+        <link rel="stylesheet" href= {{ "/assets/css/instafch.css" | relative_url }}>
     </head>
 
     <body>
@@ -31,6 +32,24 @@
         </div>
 
         {{content}}
+
+
+
+        <div>
+            <div id="instafeed"></div>
+        </div>
+
+        <div class="container">
+            <div class="col-12">
+                <div id="twitter-posts">
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+        <script type="text/javascript" src= {{ "assets/js/instafeed.min.js" | relative_url }} ></script>
+        <script type="text/javascript" src= {{ "assets/js/twitterFetcher_min.js" | relative_url }} ></script>
+        <script type="text/javascript" src= {{ "assets/js/custom.js" | relative_url }} ></script>  
 
     </body>
 </html>
